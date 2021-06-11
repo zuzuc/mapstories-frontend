@@ -42,15 +42,19 @@ function About() {
         <div>
             <div>
                 <div className='blue-box' style={{ textAlign:'center' }}>
-                    <h3>Welcome to MapStories
-                    </h3>
-                    <h4>
-                    Thank you for your visit. We are a platform dedicated to data-visualisation through maps and sharing real-life stories.   
+                    <h4>Welcome to MapStories
                     </h4>
-                    <br />
                     <h5>
-                    The platform intends to provide an impetus for marginalised voices to be included in discussions on climate-induced human mobility. Users can explore the interactive map that entails individual migration stories submitted by people that are affected by the adverse effects of climate change. 
+                    Thank you for your visit. We are a platform dedicated to data-visualisation through maps and sharing real-life stories.   
                     </h5>
+                    <br />
+                    <h6>
+                    The platform intends to provide an impetus for marginalised voices to be included in discussions on climate-induced human mobility. Users can explore the interactive map that entails individual migration stories submitted by people that are affected by the adverse effects of climate change. 
+                    </h6>
+                    <h6>
+                    This website also helps to explore a macro-picture of conflicts across the world displaying an interactive choropleth map that shows different intensity levels of conflicts and fatalities in each country.
+                    </h6>
+
                 </div>
                 <div>
                     <div className='about-box'>

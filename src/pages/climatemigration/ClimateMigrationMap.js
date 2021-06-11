@@ -148,7 +148,7 @@ function ClimateMigrationMap() {
                       // }}
                     >
                       <div>
-                        <h4>{selectedPost.title}</h4>
+                        <h5>{selectedPost.title}</h5>
                         <h6>{selectedPost.region}</h6>
                         <h6>{selectedPost.country}</h6>
                         <h6>{selectedPost.locationName}</h6>
