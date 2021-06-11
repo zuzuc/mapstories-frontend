@@ -1,0 +1,35 @@
+.CardFront {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px 10px 10px 10px; */
+  overflow: hidden;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.CardBack {
+  background-color: #00303f;
+  color: #f5f4f4;
+  font-size: 0.2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px 10px 10px 10px; */
+  overflow: hidden;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.grid > div {
+  flex-basis: calc(30% - 40px);
+}

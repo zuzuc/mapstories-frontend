@@ -1,0 +1,57 @@
+/* .footer_container {
+  width: 100%;
+} */
+
+/* .Navbar {
+  position: relative;
+  min-height: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #00303f;
+  color: #f5f4f4;
+  display: inline;
+  justify-content: stretch;
+  align-items: center;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+} */
+
+/* background-color: white;
+  background-color: #00303f;
+  color: #f5f4f4; 
+  opacity: 0.5; */
+
+/* Height of footer is set to 2.5rem
+-> this is arbitrary to the height of the content-wrap padding-bottom: 2.5rem
+so both needs to be changed accordingly */
+
+/* include property sticky-footer or for presentation margin-bottom */
+
+#footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2.5rem;
+  margin-top: -2.5rem;
+  width: 100%;
+  background-size: cover;
+  background-color: transparent;
+  color: #00303f;
+}
+
+.disclaimer-copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.disclaimer {
+  display: inline-flex;
+}
+
+.copyright {
+  display: inline-flex;
+}

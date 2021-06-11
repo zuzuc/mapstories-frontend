@@ -1,8 +1,60 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap");
+
+/* <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet"> */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  box-sizing: inherit;
 }
 
-.App-logo {
+#page-container {
+  position: relative;
+  /* min-height: 100vh; */
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /*Footer heigth*/
+}
+
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg, #b3dbd3, #faf1e8);
+  background-size: cover;
+  background-position: absolute;
+  z-index: 1;
+  align-items: center;
+  text-align: center;
+  /* margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+  font-family: "Titillium Web", sans-serif;
+  color: #00303f;
+}
+
+.redirect-buttons {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+
+.redirect-btn1 {
+  margin-right: 0.8rem;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +87,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

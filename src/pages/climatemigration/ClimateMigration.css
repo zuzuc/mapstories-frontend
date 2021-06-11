@@ -1,0 +1,38 @@
+.marker-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.map {
+  padding: 5rem;
+  position: relative;
+}
+
+.subtext {
+  font-style: italic;
+  text-align: left;
+  padding-top: 0.8rem;
+}
+
+.subtext p {
+  font-size: 0.8rem;
+}
+
+.redirect-buttons {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
+
+.redirect-btn1 {
+  margin-right: 0.8rem;
+}
+
+.submit-btn {
+  background-color: #00303f;
+  color: #faf1e8;
+  margin: 2rem 8rem 2rem 2rem;
+}
