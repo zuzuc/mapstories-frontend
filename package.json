@@ -1,5 +1,5 @@
 {
-  "name": "platform_frontend",
+  "name": "mapstories-frontend",
   "version": "0.1.0",
   "proxy": "https://climate-migration-stories.herokuapp.com",
   "private": true,
