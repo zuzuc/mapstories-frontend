@@ -18,7 +18,7 @@
     "d3-scale": "^3.3.0",
     "formik": "^2.2.9",
     "install-peerdeps": "^3.0.3",
-    "node-sass": "^6.0.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-card-flip": "^1.1.1",
